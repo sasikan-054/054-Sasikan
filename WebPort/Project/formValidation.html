@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Form Validation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <nav class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold"><span class="text-pink-500">SASI</span>PORT</h1>
+
+            <ul class="hidden md:flex space-x-6 text-gray-800">
+                <li><a href="/WebPort/index.html" class="hover:underline hover:text-pink-500">HOME</a></li>
+                <li><a href="/WebPort/about.html" class="hover:underline hover:text-pink-500">ABOUT ME</a></li>
+                <div class="relative group">
+                    <a href="/WebPort/project.html" class="hover:underline hover:text-pink-500">PROJECT</a>
+                    <ul class="absolute left-0 mt-2 w-48 bg-white shadow-md rounded-lg hidden group-hover:block">
+                        <li><a href="menu.html" class="block px-4 py-2 hover:bg-pink-100 text-gray-800">MENU</a></li>
+                        <li><a href="form.html" class="block px-4 py-2 hover:bg-pink-100 text-gray-800">FORM</a></li>
+                        <li><a href="musicShop.html" class="block px-4 py-2 hover:bg-pink-100 text-gray-800">MUSIC SHOP</a></li>
+                        <li><a href="adjustMenu.html" class="block px-4 py-2 hover:bg-pink-100 text-gray-800">ADJUST MENU</a></li>
+                    </ul>
+                  </div>
+                <li><a href="/WebPort/contact.html" class="hover:underline hover:text-pink-500">CONTACT</a></li>
+
+            </ul>
+
+            <div class="relative">
+                <input type="checkbox" id="menu-toggle" class="peer hidden">
+            
+                <div class="flex items-center space-x-4">
+                    <label for="menu-toggle" class="cursor-pointer block">
+                        <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                        </svg>
+                    </label>
+            
+                    <div class="hidden lg:flex items-center">
+                        <input type="text" placeholder="Search..." class="border rounded-lg px-3 py-1 focus:outline-none focus:ring-2 focus:ring-pink-500">
+                    </div>
+                </div>
+            
+                <ul class="absolute right-0 mt-2 w-48 bg-white shadow-md rounded-lg hidden peer-checked:block">
+                    <li><a href="/WebPort/index.html" class="block px-4 py-2 hover:underline hover:text-pink-500">HOME</a></li>
+                    <li><a href="/WebPort/about.html" class="block px-4 py-2 hover:underline hover:text-pink-500">ABOUT ME</a></li>
+                    <div class="relative group">
+                        <a href="/WebPort/project.html" class="block px-4 py-2 hover:underline hover:text-pink-500">PROJECT</a>
+                        <ul class="absolute left-0 mt-2 w-48 bg-gray-200 shadow-md rounded-lg hidden group-hover:block">
+                            <li><a href="menu.html" class="block px-4 py-2 hover:bg-pink-100 text-gray-800">MENU</a></li>
+                            <li><a href="form.html" class="block px-4 py-2 hover:bg-pink-100 text-gray-800">FORM</a></li>
+                            <li><a href="musicShop.html" class="block px-4 py-2 hover:bg-pink-100 text-gray-800">MUSIC SHOP</a></li>
+                            <li><a href="adjustMenu.html" class="block px-4 py-2 hover:bg-pink-100 text-gray-800">ADJUST MENU</a></li>
+                        </ul>
+                      </div>
+                    <li><a href="/WebPort/contact.html" class="block px-4 py-2 hover:underline hover:text-pink-500">CONTACT</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    
+</body>
+</html>
